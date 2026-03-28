@@ -170,7 +170,8 @@ function Home() {
 
         <section className="hero">
           <video autoPlay loop muted className="bg-video">
-            <source src="/bg.mp4" type="video/mp4" />
+            <source src={`${import.meta.env.BASE_URL}bg.mp4`} type="video/mp4" />
+            Your browser does not support the video tag.
           </video>
           <div className="overlay">
             <h1>Find Your <span>Perfect</span> Stay</h1>
